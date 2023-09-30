@@ -78,8 +78,9 @@ builder.Services.AddEffectiveLogger(builder.Configuration);
  }
 ```
 ### Console
-![Console](https://github.com/oznakdn/EffectiveLoggerConsoleFile/assets/79724084/838b53d0-8ac0-4a78-9db8-6e78414943a8)
+![Console](https://github.com/oznakdn/EffectiveLoggerConsoleFile/assets/79724084/2ce6fad2-3b13-4f08-85fa-6f47f8f8a11b)
 ### File
-![File](https://github.com/oznakdn/EffectiveLoggerConsoleFile/assets/79724084/f1096c94-cc4e-4bd5-ba31-b5acf46d2f81)
+![File](https://github.com/oznakdn/EffectiveLoggerConsoleFile/assets/79724084/c721a865-a899-487c-adf0-310d9e300dbc)
+
 
 
