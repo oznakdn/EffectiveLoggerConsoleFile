@@ -17,7 +17,7 @@ builder.Services.AddEffectiveLogger(settings =>
     settings.FileName = "File name is here";
 });
 
-builder.Services.AddEffectiveLogger(builder.Configuration);
+//builder.Services.AddEffectiveLogger(builder.Configuration);
 
 var app = builder.Build();
 

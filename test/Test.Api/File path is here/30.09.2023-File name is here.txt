@@ -1,0 +1,2 @@
+info: 30.09.2023 12:28:20 - /WeatherForecast - GET - Status: 200
+info: 30.09.2023 12:28:20 - /WeatherForecast - GET - Status: 200
