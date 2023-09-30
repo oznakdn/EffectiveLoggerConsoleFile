@@ -1,16 +1,16 @@
 # Gleeman Effective Logger File and/or Console
 
 
-# How To Use?
 
-### Logging to Console or File
+## Logging to Console or File
+
 #### Install packages
 `dotnet` CLI
 ```
-> dotnet add package Gleeman.EffectiveLogger.ConsoleFile --version 2.0.0
+$ dotnet add package Gleeman.EffectiveLogger.ConsoleFile --version 2.0.0
 ```
 #### Program.cs
-```charp
+```csharp
 using Gleeman.EffectiveLogger.ConsoleFile.Configurations;
 ```
 ```csharp
@@ -34,7 +34,7 @@ appsettings.json
 }
 ```
 #### Program.cs
-```charp
+```csharp
 using Gleeman.EffectiveLogger.ConsoleFile.Configurations;
 ```
 ```csharp
