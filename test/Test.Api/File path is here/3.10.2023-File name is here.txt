@@ -1,0 +1,1 @@
+info: 3.10.2023 17:59:12 - /WeatherForecast - GET - Status: 200

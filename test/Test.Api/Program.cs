@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddEffectiveLogger(settings =>
+builder.Services.AddConsoleFileLog(settings =>
 {
     settings.WriteToFile = true;
     settings.WriteToConsole = true;
