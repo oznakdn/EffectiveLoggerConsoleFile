@@ -9,14 +9,14 @@ public static class ServiceConfiguration
         LogSettings = new LogSettings();
     }
 
-    public static IServiceCollection AddEffectiveLogger(this IServiceCollection services, Action<LogSettings> settings)
+    public static IServiceCollection AddConsoleFileLog(this IServiceCollection services, Action<LogSettings> settings)
     {
         settings.Invoke(LogSettings);
         services.AddServiceContainer();
         return services;
     }
 
-    public static IServiceCollection AddEffectiveLogger(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddConsoleFileLog(this IServiceCollection services, IConfiguration configuration)
     {
         services.Configure<LogSettings>(configuration.GetSection(nameof(LogSettings)));
         services.AddServiceContainer();
