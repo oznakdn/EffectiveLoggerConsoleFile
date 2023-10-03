@@ -1,5 +1,8 @@
 # Gleeman Effective Logger File and/or Console
 
+| Package |  Version | Popularity |
+| ------- | ----- | ----- |
+| `Gleeman.EffectiveLogger.ConsoleFile` | [![NuGet](https://img.shields.io/nuget/v/Gleeman.EffectiveLogger.ConsoleFile.svg)](https://www.nuget.org/packages/Gleeman.EffectiveLogger.ConsoleFile/) | [![Nuget](https://img.shields.io/nuget/dt/Gleeman.EffectiveLogger.ConsoleFile.svg)](https://www.nuget.org/packages/https://www.nuget.org/packages/Gleeman.EffectiveLogger.ConsoleFile/)
 
 `dotnet` CLI
 ```
