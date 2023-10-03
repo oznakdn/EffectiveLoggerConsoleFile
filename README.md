@@ -1,12 +1,9 @@
 # Gleeman Effective Logger File and/or Console
 
-| Package |  Version | Popularity |
-| ------- | ----- | ----- |
-| `Gleeman.EffectiveLogger.ConsoleFile` | [![NuGet](https://img.shields.io/nuget/v/Gleeman.EffectiveLogger.ConsoleFile.svg)](https://www.nuget.org/packages/Gleeman.EffectiveLogger.ConsoleFile) | [![Nuget](https://img.shields.io/nuget/dt/Gleeman.EffectiveLogger.ConsoleFile.svg)](https://www.nuget.org/packages/Gleeman.EffectiveLogger.ConsoleFile)
 
 `dotnet` CLI
 ```
-$ dotnet add package Gleeman.EffectiveLogger.ConsoleFile --version 2.0.0
+$ dotnet add package Gleeman.EffectiveLogger.ConsoleFile --version 2.0.1
 ```
 
 #### Program.cs
@@ -14,7 +11,7 @@ $ dotnet add package Gleeman.EffectiveLogger.ConsoleFile --version 2.0.0
 using Gleeman.EffectiveLogger.ConsoleFile.Configurations;
 ```
 ```csharp
-builder.Services.AddEffectiveLogger(settings =>
+builder.Services.AddConsoleFileLog(settings =>
 {
     settings.WriteToFile = true;
     settings.WriteToConsole = true;
@@ -38,7 +35,7 @@ appsettings.json
 using Gleeman.EffectiveLogger.ConsoleFile.Configurations;
 ```
 ```csharp
-builder.Services.AddEffectiveLogger(builder.Configuration);
+builder.Services.AddConsoleFileLog(builder.Configuration);
 ```
 <hr>
 
